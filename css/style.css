@@ -1,0 +1,1530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frist-back{
+    height: 100vh;
+    font-family:'varela round' , sans-serif;
+    background: no-repeat url(../images/PG_Website_Brands_Black_Background_9ff4ba1b-db6f-4082-a87e-fb2e6ca54a53.webp);
+    background-size: cover;
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background-color:  rgb(0 0 0 / 50%);
+    overflow: auto;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo{
+    margin-top: 5px;
+    margin-left: 35px;
+    width: 100px;
+    height: 60px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.list{
+    float: right;
+    position: relative;
+}
+.list li{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    display: inline-block;
+    list-style: none;
+    color: #ffffff;
+}
+.list li a::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3px;
+    display: block;
+    background-color: rgb(238, 232, 199);
+    margin-top: 3px;
+    transition: 1s;
+    
+}
+.list li:hover  a::after{
+    width: 60px;
+    height: 3px;
+}
+.list li a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.list li a:hover{
+    color: #6195ff;
+}
+.list  li:hover .i1{
+    color: #6195ff;
+}
+.list  li:hover .i2{
+    color: #6195ff;
+}
+.list  li:hover .i3{
+    color: #6195ff;
+}
+.list  li:hover .i4{
+    color: #6195ff;
+}
+.list  li:hover .i5{
+    color: #6195ff;
+}
+.list  li:hover .i6{
+    color: #6195ff;
+}
+.i1{
+    position: fixed;
+    margin-top: 1px;
+    margin-left: -18px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.i2{
+    position: fixed;
+    margin-top: 4px;
+    margin-left: -18px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.i3{
+    position: fixed;
+    margin-top: 1px;
+    margin-left: -18px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.i4{
+    position: fixed;
+    margin-top: 1px;
+    margin-left: -18px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.i5{
+    position: fixed;
+    margin-top: 4px;
+    margin-left: -18px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.i6{
+    position: fixed;
+    margin-top: 2px;
+    margin-left: -18px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 65%;
+}
+.wel{
+    text-align: center;
+    font-size: 55px;
+    color: #ffffff;
+}
+.p1{
+    margin-top: 1%;
+    text-align: center;
+    color: #ffffff;
+}
+.btn1{
+    margin-top: 1%;
+    border: 0px solid ;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.btn2{
+    border: 0px solid ;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    margin: 5px 5px;
+    font-size: 20px;
+    background-color: rgb(56, 56, 215);
+    color: #ffffff;
+}
+.btn1:hover{
+    background-color: rgba(243, 242, 242, 0.8);
+}
+.btn2:hover{
+    opacity: .9;
+}
+.continer{
+    width: 80%;
+    margin: auto;
+    
+}
+.new-watch{
+    margin:auto 2%;
+    border: 2px solid black;
+    height: 600px;
+    float: left;
+    position: relative;
+}
+.watch{
+    width: 300px;
+    height: 300px;
+    background-position: center;
+}
+.icon-info{
+    margin:10px 5px;
+    font-size: 15px;
+    color: #6195ff;
+}
+.icon-sp1{
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000;
+}
+.new-watch::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    opacity: 0;
+}
+.new-watch:hover::after{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    background-color: #6195ff;
+}
+
+.nw{
+    border: 2px solid black;
+    margin: auto 8% ;
+    width: 300px;
+    height: 600px;
+    float: left;
+}
+.phone{
+    padding-left:  5%;  
+    background-size: cover;
+    width: 280px;
+    height: 300px;
+}
+.ss{
+    margin: auto 2%;
+    border: 2px solid black;
+    height: 600px;
+    float: left;
+}
+.airpods{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.new{
+    font-size: 25px;
+    text-align: center;
+}
+.line{
+    margin-bottom: 15px;
+    margin-top: 8px;
+    margin-left: 700px;
+    width: 100px;
+    height: 4px;
+    background-color:#6195ff;
+}
+.wat{
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 23px;
+    text-align: center;
+}
+
+.key1{
+    margin-top: 8px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.new-watch .watc li{
+    margin-left: 10px;
+    color: rgb(101, 100, 100);
+    font-weight: 100;
+    line-height: 25px;
+    list-style-type: none;
+}
+.pho{
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 23px;
+    text-align: center;
+}
+.nw .iph li{
+    margin-left: 10px;
+    color: rgb(101, 100, 100);
+    font-weight: 100;
+    line-height: 25px;
+    list-style-type: none;
+}
+.iph P{
+    font-weight: 600;
+}
+.key2{
+    margin-top: 8px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.air{
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 23px;
+    text-align: center;
+}
+.air2{
+    padding-left: 10px;
+}
+.air2 P{
+    font-weight: 600;
+}
+.key3{
+    margin-top: 8px;
+    margin-left: 10px;
+    font-weight: 600;}
+.ss .air2 li{
+    margin-left: 10px;
+    color: rgb(101, 100, 100);
+    font-weight: 100;
+    line-height: 23px;
+    list-style-type: none;
+}
+.btn3{
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #ffffff;
+    width: 160px;
+    margin-left: 68px;
+}
+.a1{
+    color:#6195ff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn4{
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #ffffff;
+    width: 160px;
+    margin-left: 68px;
+}
+.a2{
+    color:#6195ff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn5{
+    margin: auto;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #ffffff;
+    width: 160px;
+    margin-left: 68px;
+}
+.a3{
+    color:#6195ff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+}
+.parent1{
+    overflow: auto;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(232, 232, 232);
+}
+.accs{
+    padding-top: 1% ;
+    text-align: center;
+    font-size: 27px;
+}
+.line2{
+    margin: auto;
+    width: 100px;
+    height: 4px;
+    background-color: #6195ff;
+}
+.accessoris-continer{
+    width: 100%;
+    margin: 2% 0;
+}
+.div7{
+    height: 400px;
+    margin-left: 4%;
+    left: 0;
+    right: 0;
+    float: left; 
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.div7 .a4{
+    margin-top: 5%;
+    color: black;
+    text-decoration: none;
+}
+.div7 .a4:hover{
+    color: #6195ff
+}
+.div7 .iphone-info .iphone-p1{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.iphone-overlay{
+    visibility: hidden;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;  
+  }
+  .div7:hover .iphone-overlay{
+    visibility: visible;
+    background-color: rgba(000,000 ,000, 0.5);
+}
+.div7 .iphone-info  .accessories-iphone{
+    margin-left:33%;
+    font-size: 20px;
+    margin-top: -65%;
+    position: absolute;
+    text-decoration: none
+}
+.div7 .iphone-info .a4 .iphone-p1 {
+    margin-left:38%;
+    font-size: 25px;
+    margin-top: -75%;
+    position: absolute;
+    text-decoration: none;
+}
+.div7 a .mac-i1{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 140px;    
+}
+.div7 a .mac-i2{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 176px;    
+}
+.div8{
+    float: left;
+    border-radius: 20px;
+    margin :0 11%;
+    position: relative;
+}
+.div8 .ipadaccs{
+    border-radius: 20px;
+}
+
+.div8 .ipad{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -50px;
+    text-align: center;
+}
+.ipad-overlay{
+  visibility: hidden;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;  
+}
+.div8 .ipad-info  .accessories-ipad{
+    margin-left:34%;
+    font-size: 20px;
+    margin-top: -65%;
+    position: absolute;
+    text-decoration: none
+}
+.div8 .ipad-info .a5 .ipad {
+    margin-left:42%;
+    font-size: 25px;
+    margin-top: -75%;
+    position: absolute;
+    text-decoration: none;
+}
+.div8 a .mac-i1{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 140px;    
+}
+.div8 a .mac-i2{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 176px;    
+}
+.accessoris-continer a{
+    color: black;
+    visibility: hidden;
+}
+.div8:hover .ipad-overlay{
+    visibility: visible;
+    background-color: rgba(000,000 ,000, 0.5);
+}
+
+.div9{
+    height: 400px;
+    margin: auto;
+    right: 0;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: relative;
+}
+.div9 .imacaccs{
+    border-radius: 20px;
+}
+
+.div9 .imac{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -50px;
+    text-align: center;
+}
+.mac-overlay{
+    visibility: hidden;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;  
+}
+.div9:hover .mac-overlay{
+    visibility: visible;
+    background-color: rgba(000,000 ,000, 0.5);
+}
+.div9 .mac-info a .accessories-mac{
+    margin-left:33%;
+    font-size: 20px;
+    margin-top: -65%;
+    position: absolute;
+    text-decoration: none;
+}
+.div9 .mac-info a .imac{
+    margin-left:42%;
+    font-size: 25px;
+    margin-top: -75%;
+    position: absolute;
+    text-decoration: none;
+}
+.div9 a .mac-i1{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 140px;    
+}
+.div9 a .mac-i2{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 176px;    
+}
+.div10{
+    position: relative;
+    height: 400px;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin:8% 4%;
+    
+}
+.div10 .img-watch{
+    border-radius: 20px;
+}
+.watch-overlay{
+    visibility: hidden;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;  
+}
+.div10:hover .watch-overlay{
+    visibility: visible;
+    background-color: rgba(000,000 ,000, 0.5);
+}
+.div10 .watch-info a .accessories-watch{
+    margin-left:33%;
+    font-size: 20px;
+    margin-top: -65%;
+    position: absolute;
+    text-decoration: none;
+}
+.div10 .watch-info a .watch-p1{
+    margin-left:30%;
+    font-size: 25px;
+    margin-top: -75%;
+    position: absolute;
+    text-decoration: none;
+}
+.div10 a .mac-i1{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 140px;    
+}
+.div10 a .mac-i2{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 176px;    
+}
+.div10 .a7{
+    text-decoration: none;
+}
+.div11{
+    position: relative;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 8% 7%;
+    float: left;
+}
+.div11 .img-air{
+    border-radius: 20px;
+}
+.air-overlay{
+    visibility: hidden;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;  
+}
+.div11:hover .air-overlay{
+    visibility: visible;
+    background-color: rgba(000,000 ,000, 0.5);
+}
+.div11 .air-info a .accessories-air{
+    margin-left:32%;
+    font-size: 20px;
+    margin-top: -65%;
+    position: absolute;
+    text-decoration: none;
+}
+.div11 .air-info a .air-p1{
+    margin-left:36%;
+    font-size: 25px;
+    margin-top: -75%;
+    position: absolute;
+    text-decoration: none;
+}
+.div11 a .mac-i1{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 140px;    
+}
+.div11 a .mac-i2{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 176px;    
+}
+.div11 .air-p1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -50px;
+    text-align: center;
+}
+.div11 .a8{
+    text-decoration: none;
+}
+.div11 .a8:hover{
+    color: #6195ff
+}
+.div12{
+    position: relative;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 8% 4% ;
+    float: left;
+}
+.div12 .img-printer{
+    border-radius: 20px;
+}
+
+.printer-overlay{
+    visibility: hidden;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;  
+}
+.div12:hover .printer-overlay{
+    visibility: visible;
+    background-color: rgba(000,000 ,000, 0.5);
+}
+.div12 .printer-info a .accessories-printer{
+    margin-left:32%;
+    font-size: 20px;
+    margin-top: -65%;
+    position: absolute;
+    text-decoration: none;
+}
+.div12 .printer-info a .printer-p1{
+    margin-left:36%;
+    font-size: 25px;
+    margin-top: -75%;
+    position: absolute;
+    text-decoration: none;
+}
+.div12 a .mac-i1{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 140px;    
+}
+.div12 a .mac-i2{
+    margin-top:210px ;   
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    top: 0;
+    left: 176px;    
+}
+.div12 .printer-p1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -50px;
+    text-align: center;
+}
+.div12 .a9{
+    text-decoration: none;
+}
+.div12 .a9:hover{
+    color: rgb(56, 56, 215);
+}
+.accessoris-continer .div7:hover  a{
+    color: rgb(255, 255, 255);
+    visibility: visible;
+    transition: 1.2s;
+}
+.accessoris-continer .div7:hover  a i{
+    width: 30px;
+    background-color:#6195ff;
+    color: rgb(56, 56, 215) ;
+    visibility: visible;
+    transition: .9s;
+    padding-left: 1%;
+}
+.accessoris-continer .div8:hover a{
+    color: rgb(255, 255, 255);
+    visibility: visible;
+    transition: 1.2s;
+}
+.accessoris-continer .div8:hover a i{
+    width: 30px;
+    background-color:#6195ff;
+    color: rgb(56, 56, 215) ;
+    visibility: visible;
+    transition: .9s;
+    padding-left: 1%;
+}
+.accessoris-continer .div9:hover a{
+    color: rgb(255, 255, 255);
+    visibility: visible;
+    transition: 1.2s;
+}
+.accessoris-continer .div9:hover a i{
+    width: 30px;
+    background-color:#6195ff;
+    color: rgb(56, 56, 215) ;
+    visibility: visible;
+    transition: .9s;
+    padding-left: 1%;
+}
+.accessoris-continer .div10:hover a{
+    color: rgb(255, 255, 255);
+    visibility: visible;
+    transition: 1.2s;
+}
+.accessoris-continer .div10:hover a i{
+    width: 30px;
+    background-color:#6195ff;
+    color: rgb(56, 56, 215) ;
+    visibility: visible;
+    transition: .9s;
+    padding-left: 1%;
+}
+.accessoris-continer .div11:hover a{
+    color: rgb(255, 255, 255);
+    visibility: visible;
+    transition: 1.2s;
+}
+.accessoris-continer .div11:hover a i{
+    width: 30px;
+    background-color:#6195ff;
+    color: rgb(56, 56, 215) ;
+    visibility: visible;
+    transition: .9s;
+    padding-left: 1%;
+}
+.accessoris-continer .div12:hover a{
+    color: rgb(255, 255, 255);
+    visibility: visible;
+    transition: 1.2s;
+}
+.accessoris-continer .div12:hover a i{
+    width: 30px;
+    background-color:#6195ff;
+    color: rgb(56, 56, 215) ;
+    visibility: visible;
+    transition: .9s;
+    padding-left: 1%;
+}
+.continer1{
+  width: 80%;
+  overflow: auto;
+  margin: 60px  auto;
+  text-align: center;  
+}
+.used-line{
+    margin: 12px auto;
+    width: 80px;
+    height: 4px;
+    background-color:#6195ff;
+}
+.used-bse{
+    width: 330px;
+    height: 200px;
+    float: left;
+    margin: 5px 2%;
+    border: 2px solid black;
+    text-transform:capitalize ;
+    position: relative;
+
+}
+.sell{
+    text-transform: capitalize;
+    margin: 5px 5%;
+}
+.icon-used{
+    font-size: 30px;
+    margin: 15px  auto;
+    color:#6195ff;
+}
+.used-p1{
+    font-size: 20px;
+}
+.used-p2{
+    margin: 10px 0;
+    font-size: 18px;
+    color:#899;
+}
+.used-line1{
+    margin: 5px auto;
+    width: 25px;
+    height: 4px;
+    background-color:#6195ff
+}
+.used-a{
+    font-size: 18px;
+    color: #6195ff;
+    text-decoration: none;
+    text-rendering: auto;
+}
+.ex{
+    margin: 0 7px;
+}
+.used-bse::after{
+    position: absolute;
+    content:"" ;
+
+
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left:  0;
+    background-color: #333;
+    opacity: 0;
+    transition: .5s;
+}
+
+.used-bse:hover::after{
+    width: 100%;
+    height: 100%;
+
+    opacity: 1;
+    z-index: -1;
+
+}
+.used-bse:hover .used-p1{
+    color: #ffffff;
+    transition:color .5s;
+}
+.backimg{ 
+    margin: 80px auto;
+    background-image: url(../images/Background\ 1.jpg);
+    height: 350px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.backimg-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(000,000 ,000, 0.8);
+    position: relative;
+}
+.overlay-img{
+    font-size: 40px;
+    color: #6195ff;
+    overflow: auto;
+    text-align: center;
+}
+.offer-h{
+    text-align: center;
+}
+.icon-img{
+    margin: 120px 127.1px ;
+    float: left;
+}
+.icon-h3{
+    color: #ffffff;
+}
+.icon-sp{
+    color: #ffffff;
+}
+.continer2{
+    width: 90%;
+    overflow: auto;
+    margin: 60px  auto;
+  }
+  .offer-line{
+      margin: 12px auto;
+      width: 80px;
+      height: 4px;
+      background-color: #6195ff
+  }
+  .offer-info{
+      width: 30%;
+      float: left;
+      margin: 15px auto;
+      border: 2px solid #000000;
+      padding: 15px 15px 10px 20px;
+      text-transform:capitalize ;
+      position: relative;
+      line-height: 30px;
+  
+  } 
+  .sec{    
+      width: 30%; 
+      padding: 15px 15px 10px 20px; 
+      text-transform: capitalize;
+      margin: 14px 5%;
+  }
+  .icon-offer{
+      font-size: 45px;
+      margin: 5px  auto;
+      color:#6195ff;
+      text-align: start;
+  }
+  .icon-spm{
+    margin-top: -38px;
+  }
+  .offer-sp{
+      font-weight: 700;
+      font-size: 23px;
+      margin-left: 62px;
+  }
+  .sp1{
+    font-weight: 700;
+    font-size: 23px;
+    margin-left:60px;
+}
+  .offer-p2{
+      margin: 30px 0;
+      font-size: 20px;
+      color:#899;
+      text-align: center;
+  }
+  .offer-a{
+      font-size: 18px;
+      color: #6195ff;
+      text-decoration: none;
+      margin-left: 38%;
+  }
+  .offer-info::after{
+      position: absolute;
+      content:"" ;
+  
+  
+      width: 0;
+      height: 0;
+  
+      top: 0;
+      left:  0;
+      background-color: #333;
+      opacity: 0;
+      transition: .5s;
+  }
+  
+  .offer-info:hover::after{
+      width: 100%;
+      height: 100%;
+  
+      opacity: 1;
+      z-index: -1;
+  
+  }
+  .offer-info:hover .offer-sp{
+      color: #ffffff;
+      transition:color .5s;
+  }
+.continer3{
+    width: 100%;
+    height: 90vh;
+    background-color:rgb(232, 232, 232);
+}  
+.pick{
+    text-align: center;
+    font-size: 28px;
+}
+.pick-line{
+    width: 240px;
+    height: 3px;
+    background-color: #6195ff;
+    margin: auto;
+    margin-top: 8px;
+}
+.pick-ind{
+    width: 300px;
+    border: 2px solid rgb(150, 149, 149);
+    margin-top: 50px;
+    margin-left: 165px;
+    float: left;
+    position: relative;
+}
+.pick-p1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700px  ;
+    color: rgb(140, 138, 138);
+    transition: .8s;
+}
+.cricle1{
+    margin-top: 25px;
+    margin-left: 75px;
+    border: 3px solid #6195ff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: .8s;
+}
+.pick-p2{
+    padding: 45px 0;
+    text-align: center;
+    line-height: 35px;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(140, 138, 138);
+}
+.plan1{
+    text-align: center;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 38px;  
+    transition: 0.8s;
+}
+.pick-btn{
+    padding: 5px 5px;
+    margin:20px 0 20px 80px;
+    background-color:rgb(232, 232, 232);
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid #6195ff; 
+}
+.duoo{
+    width: 300px;
+    border: 2px solid rgb(150, 149, 149);
+    margin: 50px 150px;
+    float: left;
+}
+.cricle2{
+    margin-left: 75px;
+    margin-top: -20px;
+    border: 3px solid #6195ff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.duo{
+    text-align:center;
+    line-height: 35px;
+    font-style: 100px;
+    font-size: 20px;
+}
+.plan2{
+    font-style: normal;
+    font-weight:bolder;
+    font-size:38px;
+}
+.famm{
+    width: 300px;
+    border: 2px solid rgb(150, 149, 149);
+    margin-top: 50px;
+    margin-left: -18px;
+    float: left;
+}
+.cricle3{
+    margin-left: 75px;
+    margin-top: -20px;
+    border: 3px solid #6195ff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.fam{
+    text-align: center;
+    line-height: 35px;
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 20px;
+}
+.plan3{
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 38px;
+}
+.pick-ind::after{
+    position: absolute;
+    content:"" ;
+
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left:  0;
+    background-color: #000000;
+    opacity: 0;
+    transition: .8s;
+}
+
+.pick-ind:hover::after{
+    width: 100%;
+    height: 100%;
+
+    opacity: .5;
+}
+.pick-ind:hover .pick-p1{
+    color: #6195ff;
+}
+.pick-ind:hover .plan1{
+    color: #6195ff;
+}
+.pick-ind:hover .cricle1{
+    border: 3px solid #000000;
+    border-radius: 50% ;
+}
+.continer4{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+}
+.why{
+    width: 50%;
+    float: left;
+    margin-top: 75px;
+}
+.header1{
+    font-size: 30px;
+    margin: 15px 0;
+}
+.line-sp{
+    display: block;
+    background-color: #6195ff;
+    width: 70px;
+    height: 4px;
+    margin-left: 90px;
+    margin-top: -8px;
+}
+.choose-p1{
+    line-height: 25px;
+    margin: 50px 0;
+    font-size: 18px;
+    color: #999;
+}
+.list-item{
+    margin: 20px 0;
+    font-size: 16px;
+    color: #999;
+    list-style: none;
+    display: inline-block;
+    line-height: 30px;
+}
+.list-i{
+    padding: 0 5px;
+    font-size: 16px;
+    color: #6195ff;
+}
+.item-photo{
+    position: relative;
+    margin-left: 720px;
+}
+.black-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.green-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+.blue-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.list-photo{
+    list-style: none;
+    text-align: center;
+    margin-top: -70px;
+    margin-left: 750px;
+}
+.list-photo li{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #a8a8a8;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+.list-photo li.blue{
+    background-color:  #6195ff;
+}
+.list-photo li.blue:active{
+    background-color: #6195ff;
+}
+.green:hover{
+    background-color: #6195ff;
+}
+.black:hover{
+    background-color: #6195ff;
+}
+.continer5{
+    width: 80%;
+    margin: auto;
+}
+.airpods-content{
+    overflow: auto;
+}
+.airpods-choose{
+    text-align: center;
+    margin: 12px 0px;
+}
+.line-airpods{
+    display: block;
+    width: 120px;
+    height: 4px;
+    background-color: #6195ff;
+    margin: 12px 0px 12px 550px; 
+}
+.airpods-des{
+    width: 30%;
+    float: left;
+    padding: 14px 18px;
+    text-align: center;
+    background-color:rgb(232, 232, 232);
+    position: relative;
+}
+.sc{
+    margin: 0px 5%;
+}
+.airpods-img{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.airpods-img img{
+    width: 100%;
+}
+.airpods-overley{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(000,000 ,000, 0.3);
+    visibility: hidden;
+    transition: 1s;
+    opacity: 0;
+}
+.airpods-overley a{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display:block;
+    background-color: #6195ff;
+    color: black;
+    margin-left: auto;
+    line-height: 40px;
+}
+.airpods-info-title{
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.airpods-info-sp1{
+    text-transform: capitalize;
+    padding: 10px 0px;
+    color: #333;
+}
+.airpods-des:hover .airpods-info-title{
+    color: white;
+}
+.airpods-des:hover .airpods-info-sp1{
+    color: #0543be;
+}
+.airpods-des:hover .airpods-overley{
+    visibility: visible;
+    opacity: 0.8;
+}
+.airpods-des::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: #000000;
+    transition: 1s;
+    opacity: 0;
+}
+.airpods-des:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    
+}
+.compare-back{
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+.compare-overley{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(000,000 ,000, 0.7);
+}
+.compare-info{
+    width: 90%;
+    margin: auto;
+}
+.compare-info-img1{
+    margin: 115px 0px 0px 0px;
+    border-radius: 50%;
+}
+.compare-info-prg{
+    margin-top: -160px;
+    margin-left: 215px;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+}
+.compare-title2{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.compare-title-p1{
+    color: #6195ff
+}
+.compare-title-sp{
+    color: #999
+}
+.compare-title-p2{
+    color: #999
+}
+.compare-info-prg2{
+    margin-top: -154px;
+    margin-left: 830px;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+}
+.compare-info-img2{
+    margin-top: -170px;
+    margin-left: 615px;
+    border-radius: 50%;
+}
+.footer{
+    width: 100%;
+    background-color: #626161;
+}
+.footer-img{
+    margin: 15px 658px;
+    border-radius: 50%;
+    
+}
+.footer{
+    list-style: none;
+}
+.footer-links  li{
+    text-align: center;
+    background-color: #6195ff;
+    list-style-type: none;
+    margin: 15px 5px;
+    font-size: 32px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+.footer-links  .li1{
+    margin-top: 5px;
+    margin-left: 575px;
+
+}
+.footer-links a i{
+    padding-top: 8px;
+    color: white;
+    
+}
+.footer  p{
+    padding-top: 8px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999;
+}
+.footer-links li::after {
+    position: absolute;
+    content: "";
+    opacity: 0;
+    transition: 1s;
+    background-color: #0947c2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    z-index: -1;
+}
+.footer-links li:hover::after{
+    opacity: .7;
+    width: 100%;
+    height: 100%;  
+}
